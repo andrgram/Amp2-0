@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "random": "cpp",
+        "functional": "cpp",
+        "iosfwd": "cpp",
+        "limits": "cpp",
+        "streambuf": "cpp",
+        "*.tcc": "cpp"
+    }
+}

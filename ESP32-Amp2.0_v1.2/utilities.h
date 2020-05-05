@@ -1,5 +1,6 @@
 #pragma once
 // External libraries
+#include <Arduino.h>
 #include <PGA2311.h>
 #include <GramRotaryEncoder.h>
 #include <LiquidCrystal_I2C.h>
@@ -91,6 +92,7 @@ Channel* chooseOutput(Channel (&channels)[nOfChannels], Channel *channelPlaying)
 // The ISR function
 void IRAM_ATTR samplePeriodPassed();
 
+// Looping in the rotary shit
 void rotaryLoop();
 
 // Two function for printing the volume to the lcd. I think I prefer the second one
