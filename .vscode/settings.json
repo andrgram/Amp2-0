@@ -5,6 +5,12 @@
         "iosfwd": "cpp",
         "limits": "cpp",
         "streambuf": "cpp",
-        "*.tcc": "cpp"
+        "*.tcc": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "exception": "cpp",
+        "new": "cpp"
     }
 }
